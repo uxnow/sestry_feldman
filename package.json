@@ -1,8 +1,8 @@
 {
-  "name": "hardhat-template",
+  "name": "feldman-sisters",
   "version": "1.0.0",
   "license": "MIT",
-  "author": "Distributed Lab",
+  "author": "Arvolear",
   "description": "",
   "scripts": {
     "install": "npx husky install",
