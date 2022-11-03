@@ -27,7 +27,7 @@ describe("FeldmanSistersNFT", () => {
 
   describe("constructor", () => {
     it("should set everything correctly", async () => {
-      assert.equal(await nft.maxTotalSupply(), "4000");
+      assert.equal(await nft.maxTotalSupply(), "4096");
       assert.isFalse(await nft.saleStarted());
       assert.equal(await nft.priceInEther(), wei("0.02"));
       assert.equal(await nft.whitelistPerWallet(), "1");

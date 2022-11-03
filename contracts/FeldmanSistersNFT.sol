@@ -20,7 +20,7 @@ contract FeldmanSistersNFT is Ownable, ERC721Enumerable {
     mapping(address => uint256) public whitelistMinted;
 
     constructor(string memory name_, string memory symbol_) ERC721(name_, symbol_) {
-        maxTotalSupply = 4000;
+        maxTotalSupply = 4096;
         priceInEther = 0.02 ether;
         whitelistPerWallet = 1;
     }
